@@ -10,8 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-
-  font: normal 100%/1.5 sans-serif;
+  font: normal 100%/1.5rem sans-serif;
 }
 
 *, *::before, *::after {
@@ -19,10 +18,8 @@ html {
 }
 
 body {
-  font-family: 'Georiga', sans-serif;
-  background-color: #e2e2e2;
-  font-size: 1.5rem;
-  color: #fff;
+  font-family: "Georgia", sans-serif;
+  background-color: #fff;
   margin: 0;
 }
 
@@ -31,19 +28,15 @@ img {
 }
 
 .img-flex {
-  display: block;
+  display: flex;
   width: 100%;
 }
 
 div {
-  background-color: rgba(0, 0, 0, .3);
-  text-align: left;
-  padding: .5em;
-
-  position: relative;
-  display: flex;
-
+  background-color: #e2e2e2;
   margin: 0 0 1.3rem;
+  position: block;
+  color: #000;
 }
 
 h2 {
@@ -63,9 +56,8 @@ p {
   }
 
   div {
-    margin: 0 0 1.3rem;
-
     background-color: rgba(0, 0, 0, .3);
+    margin: 0 0 1.3rem;
     text-align: left;
     padding: .5em;
   }
@@ -80,10 +72,10 @@ p {
   }
 
   div {
-    margin: 0 0 1.4rem;
 
     background-color: rgba(0, 0, 0, .3);
     border-radius: .75em;
+    margin: 0 0 1.4rem;
     text-align: left;
     padding: .5em;
   }
@@ -98,10 +90,9 @@ p {
   }
 
   div {
-    margin: 0 0 1.5rem;
-
     background-color: rgba(0, 0, 0, .3);
     border-radius: .75em;
+    margin: 0 0 1.5rem;
     text-align: left;
     padding: .5em;
   }
