@@ -10,7 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font: normal 100%/1.5rem sans-serif;
+  font: normal 100%/1.3rem Georgia, serif;
 }
 
 *, *::before, *::after {
@@ -18,36 +18,28 @@ html {
 }
 
 body {
-  font-family: "Georgia", sans-serif;
   background-color: #fff;
   font-size: 1.5rem;
   margin: 0;
 }
 
-img {
-  position: absolute;
-  display: block;
-}
-
 .img-flex {
-  display: flex;
+  display: block;
   width: 100%;
 }
 
 div {
   background-color: #e2e2e2;
   margin: 0 0 1.3rem;
-  position: relative;
   color: #000;
 }
 
 h2 {
   font-family: "Denk One", sans-serif;
-  display: inline-block;
 }
 
 p {
-  display: flex;
+
 }
 
 @media only screen and (min-width: 25em) {
