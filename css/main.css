@@ -11,14 +11,36 @@ html {
   text-size-adjust: 100%;
   box-sizing: border-box;
 
-  font: normal 100%/1.5 sans-serif;
+  font-family: 'Georgia', sans-serif;
+  background-color: #e2e2e2;
+  font-size: 1.5rem;
+  color: #fff;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-font-family: 'Denk One', sans-serif;
+img {
+  display: block;
+}
+
+div {
+  background-color: rgba(0, 0, 0, .3);
+  border-radius: .75em;
+  text-align: left;
+  padding: .5em;
+  display: flex;
+}
+
+h2 {
+  font-family: 'Denk One', sans-serif;
+  display: inline-block;
+}
+
+p {
+  display: flex;
+}
 
 @media only screen and (min-width: 38em) {
 
