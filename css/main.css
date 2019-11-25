@@ -31,15 +31,17 @@ body {
 div {
   background-color: #e2e2e2;
   margin: 0 0 1.3rem;
+  padding: .75em;
   color: #000;
 }
 
 h2 {
   font-family: "Denk One", sans-serif;
+  font-size: 1.3rem;
 }
 
 p {
-
+  font-size: 1rem;
 }
 
 @media only screen and (min-width: 25em) {
@@ -50,10 +52,16 @@ p {
   }
 
   div {
-    background-color: rgba(0, 0, 0, .3);
+    background-color: #e2e2e2;
+    position: absolute;
     margin: 0 0 1.3rem;
     text-align: left;
     padding: .5em;
+  }
+
+  h2,
+  p {
+    position: relative;
   }
 
 }
@@ -66,7 +74,6 @@ p {
   }
 
   div {
-
     background-color: rgba(0, 0, 0, .3);
     border-radius: .75em;
     margin: 0 0 1.4rem;
