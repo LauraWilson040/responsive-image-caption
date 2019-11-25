@@ -95,6 +95,10 @@ p {
     line-height: 1.5;
   }
 
+  img {
+    position: absolute;
+  }
+
   div {
     background-color: rgba(0, 0, 0, .3);
     border-radius: .75em;
@@ -111,6 +115,10 @@ p {
 
   html {
     font-size: 130%;
+  }
+
+  img {
+    position: absolute;
   }
 
   div {
