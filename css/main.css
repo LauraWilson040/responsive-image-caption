@@ -26,10 +26,11 @@ body {
 
 img {
   position: absolute;
+  display: block;
 }
 
 .img-flex {
-  display: block;
+  display: flex;
   width: 100%;
 }
 
