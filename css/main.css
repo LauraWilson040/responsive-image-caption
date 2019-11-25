@@ -22,6 +22,7 @@ html {
 }
 
 img {
+  position: absolute;
   display: block;
 }
 
@@ -30,11 +31,13 @@ div {
   border-radius: .75em;
   text-align: left;
   padding: .5em;
+
+  position: relative;
   display: flex;
 }
 
 h2 {
-  font-family: 'Denk One', sans-serif;
+  font-family: "Denk One", sans-serif;
   display: inline-block;
 }
 
