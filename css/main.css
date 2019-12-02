@@ -26,6 +26,7 @@ body {
 .img-flex {
   display: block;
   width: 100%;
+  position: relative;
 }
 
 div {
@@ -51,6 +52,11 @@ p {
     line-height: 1.3;
   }
 
+  h1,
+  p {
+    margin: 0 0 1.3rem;
+  }
+
   div {
     background-color: #e2e2e2;
     margin: 0 0 1.3rem;
@@ -67,15 +73,15 @@ p {
     line-height: 1.4;
   }
 
-  img {
-    position: absolute;
+  h1,
+  p {
+    margin: 0 0 1.4rem;
   }
 
-  div {
+  .text {
     background-color: rgba(0, 0, 0, .3);
     border-radius: .75em;
-    position: relative;
-    bottom: 2rem;
+    position: absolute;
     margin: 0 0 1.4rem;
     text-align: left;
     padding: .5em;
@@ -95,8 +101,9 @@ p {
     line-height: 1.5;
   }
 
-  img {
-    position: absolute;
+  h1,
+  p {
+    margin: 0 0 1.5rem;
   }
 
   div {
@@ -115,10 +122,6 @@ p {
 
   html {
     font-size: 130%;
-  }
-
-  img {
-    position: absolute;
   }
 
   div {
