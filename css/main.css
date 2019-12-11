@@ -10,7 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font: normal 100%/1.5rem Georgia, serif;
+  font: normal 100%/1.3rem Georgia, serif;
 }
 
 *, *::before, *::after {
@@ -38,7 +38,7 @@ div {
 
 h2 {
   font-family: "Denk One", sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 p {
