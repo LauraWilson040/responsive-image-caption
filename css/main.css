@@ -10,7 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font: normal 100%/1.3rem Georgia, serif;
+  font: normal 100%/1.5rem Georgia, serif;
 }
 
 *, *::before, *::after {
